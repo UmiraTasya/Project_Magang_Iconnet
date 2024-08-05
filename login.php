@@ -99,7 +99,7 @@ if (!empty($_SESSION['username_iconnet'])) {
     <link href="assets/css/login.css" rel="stylesheet">
 </head>
 
-<body class="d-flex align-items-center py-4 bg-body-tertiary" style="background-image: url(assets/img/background_login.png); background-repeat :no-repeat; background-size:cover; background-position: center;">
+<body class="d-flex align-items-center py-4 bg-body-tertiary" style="background-image: url(assets/img/login2.png); background-repeat :no-repeat; background-size:cover; background-position: center;">
     <main class="form-signin text-center w-100 m-auto border bg-light" style="border-radius: 25px;">
         <form class="needs-validation" novalidate action="proses/proses_login.php" method="POST">
             <img src="assets/img/logo-removebg-preview.png" alt="" width="100" height="30">

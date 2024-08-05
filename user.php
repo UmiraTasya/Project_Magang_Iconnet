@@ -6,7 +6,7 @@ while ($record = mysqli_fetch_array($query)) {
 }
 ?>
 
-<div class="col-lg-9 mt-2">
+<div class="col-lg-10 mt-2" >
     <div class="card">
         <div class="card-header">
             Halaman User
@@ -357,8 +357,8 @@ while ($record = mysqli_fetch_array($query)) {
             } else {
             ?>
 
-                <div class="table-responsive">
-                    <table class="table table-hover">
+                <div class="table-responsive mt-2">
+                    <table class="table table-hover" id="example">
                         <thead>
                             <tr class="text-nowrap">
                                 <th scope="col">No</th>
